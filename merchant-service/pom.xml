@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>tech.yhao</groupId>
-	<artifactId>kb725</artifactId>
+	<artifactId>eclib</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>eclib-merchant</name>
 	<description>Demo project for Spring Boot</description>
