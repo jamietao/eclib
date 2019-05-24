@@ -11,8 +11,6 @@ spring:
       
    kafka:
       bootstrap-servers: linux-dev.mshome.net:9092
-      consumer:
-         group-id: merchants-passtemplate-kafka-groupp
          
 logging:
    level:
