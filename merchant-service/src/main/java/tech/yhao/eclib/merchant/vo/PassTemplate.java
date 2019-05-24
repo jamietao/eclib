@@ -47,4 +47,77 @@ public class PassTemplate {
 
 		return ErrorCode.SUCCESS;
 	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getSummary() {
+		return summary;
+	}
+
+	public void setSummary(String summary) {
+		this.summary = summary;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public Long getLimit() {
+		return limit;
+	}
+
+	public void setLimit(Long limit) {
+		this.limit = limit;
+	}
+
+	public boolean isHasToken() {
+		return hasToken;
+	}
+
+	public void setHasToken(boolean hasToken) {
+		this.hasToken = hasToken;
+	}
+
+	public Integer getBackground() {
+		return background;
+	}
+
+	public void setBackground(Integer background) {
+		this.background = background;
+	}
+
+	public Date getStart() {
+		return start;
+	}
+
+	public void setStart(Date start) {
+		this.start = start;
+	}
+
+	public Date getEnd() {
+		return end;
+	}
+
+	public void setEnd(Date end) {
+		this.end = end;
+	}
+
 }

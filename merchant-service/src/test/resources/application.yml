@@ -1,13 +1,19 @@
+server:
+   port: 9090
+   
 spring:
    application:
       name: Merchants-Application
-   server:
-      port: 9090
    datasource:
       username: root
       password: Perkinelmer123
       url: jdbc:mysql://127.0.0.1:3306/passbook
-
-   logging:
-      level: debug
-      file: merchant.log
+      
+   kafka:
+      bootstrap-servers: linux-dev.mshome.net:9092
+      consumer:
+         group-id: merchants-passtemplate-kafka-groupp
+         
+logging:
+   level:
+      root: debug
